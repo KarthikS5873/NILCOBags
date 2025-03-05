@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRODUCT DETIALS - NILCO BAGS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="NIlCO bags logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="NIlCO bags logo.png" width="90px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Product</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png" width="30px" height="30px">
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+ <!----------- single product detail ----------->
+    <div class="small-container single-produc">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/gallery-1.jpg" width="100%">
+            </div>
+            <div class="col-2">
+                <p>Home/Bags</p>
+                <h1>XYZ</h1>
+                <h4>$00.00</h4>
+                <select>
+                    <option>Select Size</option>
+                    <option>XXL</option>
+                    <option>XL</option>
+                    <option>Larger</option>
+                    <option>Medium</option>
+                    <option>Small</option>
+                </select>
+                <input type="number" value="1">
+                <a href="" class="btn">Add to cart</a>
+
+                <h3>Product Details<i class="fa fa-indent"></i></h3>""
+                <p>American Tourister Fizz Black Backpack School bag for travel with Organizer Bottle compartment water resistant backpack for Men</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="small-container">
+
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-8.jpg" >
+                <h4>XYZ</h4>
+                <p>$00.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-3.jpg" >
+                <h4>XYZ</h4>
+                <p>$00.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-10.jpg" >
+                <h4>XYZ</h4>
+                <p>$00.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-12.jpg" >
+                <h4>XYZ</h4>
+                <p>$00.00</p>
+            </div>
+        </div>
+            
+        </div>
+    </div>
+    <!-------footer------>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <img src="NIlCO bags logo.png" width="100px">
+                    <p>Our Purpose Is To Subtainably Make the Pleasure
+                        and Benefits of The Bags Accessories to Many.
+                    </p>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2025 - NILCO Bags</p>
+        </div>
+    </div>
+    <script>
+        var MenuItems=document.getElementById("MenuItems");
+        MenuItems.style.maxHeight="0px";
+
+        function menutoggle()
+        {
+            if(MenuItems.style.maxHeight=="0px")
+            {
+            MenuItems.style.maxHeight="200px";
+            }
+        else
+            {
+            MenuItems.style.maxHeight="0px";
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALL PRODUCTS - NILCO BAGS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="NIlCO bags logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="NIlCO bags logo.png" width="90px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Product</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png" width="30px" height="30px">
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+
+    <div class="small-container ">
+        <div class="row row-2">
+            <h2>All products</h2>
+            <select>
+                <option>Default Shopping</option>
+                <option>Sort by price</option>
+                <option>Sort by popularity</option>
+                <option>Sort by rating</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-1.jpg" >
+                <h4>XYZ</h4>
+                <p>$00.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-2.jpg" >
+                <h4>XYZ</h4>
+                <p>$00.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-3.jpg" >
+                <h4>XYZ</h4>
+                <p>$00.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-4.jpg" >
+                <h4>XYZ</h4>
+                <p>$00.00</p>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-5.jpg" >
+                    <h4>XYZ</h4>
+                    <p>$00.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-6.jpg" >
+                    <h4>XYZ</h4>
+                    <p>$00.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-7.jpg" >
+                    <h4>XYZ</h4>
+                    <p>$00.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-8.jpg" >
+                    <h4>XYZ</h4>
+                    <p>$00.00</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-9.jpg" >
+                    <h4>XYZ</h4>
+                    <p>$00.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-10.jpg" >
+                    <h4>XYZ</h4>
+                    <p>$00.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-11.jpg" >
+                    <h4>XYZ</h4>
+                    <p>$00.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-12.jpg" >
+                    <h4>XYZ</h4>
+                    <p>$00.00</p>
+                </div>
+            </div>
+            <div class="page-btn">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>&#8594;</span>
+            </div>
+        </div>
+    </div>
+    <!-------footer------>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <img src="NIlCO bags logo.png" width="100px">
+                    <p>Our Purpose Is To Subtainably Make the Pleasure
+                        and Benefits of The Bags Accessories to Many.
+                    </p>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2025 - NILCO Bags</p>
+        </div>
+    </div>
+    <script>
+        var MenuItems=document.getElementById("MenuItems");
+        MenuItems.style.maxHeight="0px";
+
+        function menutoggle()
+        {
+            if(MenuItems.style.maxHeight=="0px")
+            {
+            MenuItems.style.maxHeight="200px";
+            }
+        else
+            {
+            MenuItems.style.maxHeight="0px";
+            }
+        }
+    </script>
+</body>
+</html>
